@@ -1,8 +1,8 @@
-version="v0.0.1"
+version="V0.0.0"
 tags={
+	"Gameplay"
 	"Military"
 	"Spaceships"
-	"Gameplay"
 }
 name="More ship sections"
 supported_version="3.0.4"
