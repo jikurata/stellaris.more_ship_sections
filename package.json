@@ -1,0 +1,32 @@
+{
+  "name": "more_ship_sections",
+  "version": "0.0.1",
+  "description": "Enable more versatile fleet strategies by implementing new ship section types",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "watch": "nodemon --config config/nodemon.config.json --exec npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jikurata/stellaris.more_ship_sections.git"
+  },
+  "keywords": [
+    "stellaris",
+    "mod",
+    "gameplay"
+  ],
+  "author": "iceerules",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jikurata/stellaris.more_ship_sections/issues"
+  },
+  "homepage": "https://github.com/jikurata/stellaris.more_ship_sections#readme",
+  "devDependencies": {
+    "@jikurata/logger": "^1.0.1",
+    "@jikurata/root": "^1.0.2",
+    "fs-extra": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}

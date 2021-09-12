@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "src/**/**.*"
+  ],
+  "ignore": [
+    ".gitignore",
+    "node_modules/**/node_modules",
+    "scripts/"
+  ],
+  "restartable": "rs",
+  "stdout": true,
+  "verbose": true,
+  "delay": 200
+}

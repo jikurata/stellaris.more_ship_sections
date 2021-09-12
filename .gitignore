@@ -1,6 +1,2 @@
-component_sets/
-component_slot_templates/
-component_tags/
-component_templates/
-ship_behaviors/
-ship_sizes/
+.env
+node_modules/
