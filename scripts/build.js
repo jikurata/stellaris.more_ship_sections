@@ -38,7 +38,7 @@ function clearModDir() {
     return Promise.all(ps);
   })
   .then(results => {
-    Logger.info(`Removed ${results.length} ${(results.length === 1) ? 'file' : 'files'} from ${dist}. (${Date.now() - t_0}ms)`);
+    Logger.info(`Removed ${results.length} deprecated ${(results.length === 1) ? 'file' : 'files'} from ${dist}. (${Date.now() - t_0}ms)`);
   })
   .catch(err => Logger.error(err));
 }

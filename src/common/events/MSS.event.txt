@@ -1,0 +1,13 @@
+namespace = MSS
+event = {
+	id = MSS.1
+	fire_only_once = yes
+	trigger = {
+		NOT = {
+			has_global_flag = MSS_INSTALLED
+		}
+	}
+	immediate = {
+		set_global_flag = MSS_INSTALLED
+	}
+}
