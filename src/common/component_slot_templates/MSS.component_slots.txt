@@ -1,0 +1,32 @@
+MSS_medium_turret_fixed = {
+	size = medium
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "medium_kinetic_gun_entity"
+		weapon_type_energy =  "medium_laser_gun_entity"
+	}
+	is_fixed = yes
+}
+
+MSS_medium_turret_fixed_invisible = {
+	size = medium
+	component = weapon
+	is_fixed = yes
+}
+
+MSS_large_turret_fixed = {
+	size = large
+	component = weapon
+	entities = {
+		weapon_type_kinetic = "large_kinetic_gun_entity"
+		weapon_type_energy =  "large_laser_gun_entity"
+	}
+	is_fixed = yes
+}
+
+MSS_large_turret_fixed_invisible = {
+	size = large
+	component = weapon
+	is_fixed = yes
+}
+

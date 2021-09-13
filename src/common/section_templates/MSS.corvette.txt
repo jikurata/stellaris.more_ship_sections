@@ -141,7 +141,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "MMS_CORVETTE_STINGER"
+	key = "MMS_CORVETTE_MI2"
 	ship_size = corvette
 	fits_on_slot = mid
 	should_draw_components = yes
@@ -185,7 +185,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "MMS_CORVETTE_FIGHTER"
+	key = "MSS_CORVETTE_S1PD2"
 	ship_size = corvette
 	fits_on_slot = mid
 	should_draw_components = yes
@@ -235,7 +235,7 @@ ship_section_template = {
 
 
 ship_section_template = {
-	key = "MMS_CORVETTE_CRUSADER"
+	key = "MSS_CORVETTE_M1S1"
 	ship_size = corvette
 	fits_on_slot = mid
 	should_draw_components = yes
