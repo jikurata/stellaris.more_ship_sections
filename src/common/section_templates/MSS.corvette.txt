@@ -32,11 +32,14 @@ ship_section_template = {
 	ai_weight = {
 		modifier = {
 			factor = 10.0
-			is_preferred_weapons = weapon_type_kinetic
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { is_preferred_weapons = weapon_type_kinetic }
+			is_preferred_weapons = weapon_type_explosive
 		}	
 	}
 	
@@ -59,12 +62,15 @@ ship_section_template = {
 	ai_weight = {
 		modifier = {
 			factor = 10.0
-			is_preferred_weapons = weapon_type_energy
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { is_preferred_weapons = weapon_type_energy }
-		}
+			is_preferred_weapons = weapon_type_explosive
+		}	
 	}
 	
 	component_slot = {
@@ -196,12 +202,15 @@ ship_section_template = {
 	ai_weight = {
 		modifier = {
 			factor = 10.0
-			is_preferred_weapons = weapon_type_kinetic
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { is_preferred_weapons = weapon_type_kinetic }
-		}		
+			is_preferred_weapons = weapon_type_explosive
+		}	
 	}
 
 	component_slot = {
@@ -246,12 +255,15 @@ ship_section_template = {
 	ai_weight = {
 		modifier = {
 			factor = 10.0
-			is_preferred_weapons = weapon_type_energy
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
 		}
 		modifier = {
 			factor = 0.1
-			NOT = { is_preferred_weapons = weapon_type_energy }
-		}		
+			is_preferred_weapons = weapon_type_explosive
+		}	
 	}
 	
 	component_slot = {
