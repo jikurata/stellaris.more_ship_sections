@@ -16,7 +16,8 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 	
-	medium_utility_slots = 4
+	medium_utility_slots = 3
+	small_utility_slots = 3
 	
 	resources = {
 		category = ship_sections
@@ -63,7 +64,8 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	medium_utility_slots = 4
+	medium_utility_slots = 3
+	small_utility_slots = 3
 	
 	resources = {
 		category = ship_sections
@@ -93,7 +95,8 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	
-	medium_utility_slots = 4
+	medium_utility_slots = 3
+	small_utility_slots = 3
 	
 	resources = {
 		category = ship_sections
@@ -140,7 +143,8 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_01"
 	}
 	
-	medium_utility_slots = 4
+	medium_utility_slots = 3
+	small_utility_slots = 3
 	
 	resources = {
 		category = ship_sections
@@ -169,7 +173,8 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	
-	medium_utility_slots = 4
+	medium_utility_slots = 3
+	small_utility_slots = 3
 	
 	resources = {
 		category = ship_sections
@@ -205,7 +210,8 @@ ship_section_template = {
 		locatorname = "medium_gun_03"
 	}
 	
-	medium_utility_slots = 4
+	medium_utility_slots = 3
+	small_utility_slots = 3
 	
 	resources = {
 		category = ship_sections
@@ -258,7 +264,8 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	medium_utility_slots = 4
+	medium_utility_slots = 3
+	small_utility_slots = 3
 	
 	resources = {
 		category = ship_sections
@@ -284,7 +291,8 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	
-	aux_utility_slots = 2
+	medium_utility_slots = 2
+	aux_utility_slots = 3
 		
 	resources = {
 		category = ship_sections
@@ -314,8 +322,122 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	aux_utility_slots = 2
+	medium_utility_slots = 2
+	aux_utility_slots = 3
 	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "MSS_CRUISER_STERN_MI1"
+	ship_size = cruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_M1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}	
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	
+	medium_utility_slots = 2
+	aux_utility_slots = 3
+		
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "MSS_CRUISER_STERN_H1"
+	ship_size = cruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_M1_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = weapon_type_strike_craft
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+		}		
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "medium_gun_01"
+	}
+	
+	small_utility_slots = 2
+	aux_utility_slots = 2
+		
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "MSS_CRUISER_STERN_L1"
+	ship_size = cruiser
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "cruiser_stern_M1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			OR = {
+				is_preferred_weapons = weapon_type_kinetic
+				is_preferred_weapons = weapon_type_energy
+			}
+		}
+		modifier = {
+			factor = 0.1
+			is_preferred_weapons = weapon_type_explosive
+		}	
+	}
+	
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "large_turret"
+		locatorname = "medium_gun_01"
+	}
+	
+	small_utility_slots = 2
+	aux_utility_slots = 2
+		
 	resources = {
 		category = ship_sections
 		cost = {

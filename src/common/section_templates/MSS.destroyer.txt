@@ -42,8 +42,7 @@ ship_section_template = {
 	}
 
 	medium_utility_slots = 1
-	small_utility_slots = 5
-	aux_utility_slots = 1
+	small_utility_slots = 4
 
 	resources = {
 		category = ship_sections
@@ -95,8 +94,7 @@ ship_section_template = {
 	}
 	
 	medium_utility_slots = 2
-	small_utility_slots = 5
-	aux_utility_slots = 1
+	small_utility_slots = 4
 
 	resources = {
 		category = ship_sections
@@ -136,8 +134,7 @@ ship_section_template = {
 	}
 	
 	medium_utility_slots = 1
-	small_utility_slots = 5
-	aux_utility_slots = 1
+	small_utility_slots = 4
 	
 	resources = {
 		category = ship_sections
@@ -167,26 +164,24 @@ ship_section_template = {
 	}
 
 	component_slot = {
-		name = "TORPEDO_01"
-		template = "medium_missile_turret"
+		name = "SMALL_GUN_02"
+		template = "point_defence_turret"
 		locatorname = "small_gun_01"
 	}
-	
 	component_slot = {
 		name = "TORPEDO_01"
 		template = "medium_missile_turret"
 		locatorname = "small_gun_02"
 	}	
-	
 	component_slot = {
-		name = "SMALL_GUN_02"
-		template = "point_defence_turret"
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
 		locatorname = "small_gun_03"
 	}
+	
 
 	medium_utility_slots = 1
-	small_utility_slots = 4
-	aux_utility_slots = 1
+	small_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -223,8 +218,7 @@ ship_section_template = {
 	}
 
 	medium_utility_slots = 1
-	small_utility_slots = 4
-	aux_utility_slots = 1
+	small_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
@@ -272,7 +266,7 @@ ship_section_template = {
 	
 	medium_utility_slots = 1
 	small_utility_slots = 2
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
@@ -317,7 +311,7 @@ ship_section_template = {
 	
 	medium_utility_slots = 1
 	small_utility_slots = 2
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
@@ -349,7 +343,7 @@ ship_section_template = {
 	
 	medium_utility_slots = 1
 	small_utility_slots = 2
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
@@ -386,7 +380,7 @@ ship_section_template = {
 	
 	medium_utility_slots = 1
 	small_utility_slots = 2
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections
@@ -425,7 +419,7 @@ ship_section_template = {
 	}
 	
 	small_utility_slots = 2
-	aux_utility_slots = 1
+	aux_utility_slots = 2
 	
 	resources = {
 		category = ship_sections

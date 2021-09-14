@@ -141,7 +141,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "MMS_CORVETTE_MI2"
+	key = "MSS_CORVETTE_MI2"
 	ship_size = corvette
 	fits_on_slot = mid
 	should_draw_components = yes
