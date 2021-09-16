@@ -170,7 +170,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette crisis_corvette }
+	size_restriction = { corvette destroyer crisis_corvette crisis_destroyer }
 	component_set = "combat_computers"
 	ship_behavior = "swarm"
 	prerequisites = { "tech_combat_computers_1" }
@@ -201,7 +201,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette crisis_corvette }
+	size_restriction = { corvette destroyer crisis_corvette crisis_destroyer }
 	component_set = "combat_computers"
 	ship_behavior = "swarm"
 	prerequisites = { "tech_combat_computers_2" }
@@ -232,7 +232,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette crisis_corvette }
+	size_restriction = { corvette destroyer crisis_corvette crisis_destroyer }
 	component_set = "combat_computers"
 	ship_behavior = "swarm"
 	prerequisites = { "tech_combat_computers_3" }
@@ -272,7 +272,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette crisis_corvette }
+	size_restriction = { corvette destroyer crisis_corvette crisis_destroyer }
 	component_set = "combat_computers"
 	ship_behavior = "swarm"
 	prerequisites = { "tech_combat_computers_autonomous" }
@@ -302,7 +302,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette crisis_corvette }
+	size_restriction = { corvette destroyer crisis_corvette crisis_destroyer }
 	component_set = "combat_computers"
 	ship_behavior = "swarm"
 	prerequisites = { "tech_precognition_interface" }
@@ -336,7 +336,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette destroyer cruiser crisis_corvette crisis_destroyer crisis_cruiser }
+	size_restriction = { corvette destroyer cruiser battleship crisis_corvette crisis_destroyer crisis_cruiser }
 	component_set = "combat_computers"
 	ship_behavior = "picket"
 	prerequisites = { "tech_combat_computers_1" }
@@ -365,7 +365,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette destroyer cruiser crisis_corvette crisis_destroyer crisis_cruiser }
+	size_restriction = { corvette destroyer cruiser battleship crisis_corvette crisis_destroyer crisis_cruiser }
 	component_set = "combat_computers"
 	ship_behavior = "picket"
 	prerequisites = { "tech_combat_computers_2" }
@@ -394,7 +394,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette destroyer cruiser crisis_corvette crisis_destroyer crisis_cruiser }
+	size_restriction = { corvette destroyer cruiser battleship crisis_corvette crisis_destroyer crisis_cruiser }
 	component_set = "combat_computers"
 	ship_behavior = "picket"
 	prerequisites = { "tech_combat_computers_3" }
@@ -435,7 +435,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette destroyer cruiser crisis_corvette crisis_destroyer crisis_cruiser }
+	size_restriction = { corvette destroyer cruiser battleship crisis_corvette crisis_destroyer crisis_cruiser }
 	component_set = "combat_computers"
 	ship_behavior = "picket"
 	prerequisites = { "tech_combat_computers_autonomous" }
@@ -466,7 +466,7 @@ utility_component_template = {
 		}
 	}
 	class_restriction = { shipclass_military }
-	size_restriction = { corvette destroyer cruiser crisis_corvette crisis_destroyer crisis_cruiser }
+	size_restriction = { corvette destroyer cruiser battleship crisis_corvette crisis_destroyer crisis_cruiser }
 	component_set = "combat_computers"
 	ship_behavior = "picket"
 	prerequisites = { "tech_precognition_interface" }

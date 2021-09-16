@@ -463,7 +463,7 @@ ship_section_template = {
 	entity = "cruiser_stern_M1_entity"
 	icon = "GFX_ship_part_core_stern"
 	
-	prerequisites = { tech_cruiser_hull_1, tech_strike_craft_1 }
+	prerequisites = { tech_cruiser_hull_1 }
 
 	ai_weight = {
 		modifier = {

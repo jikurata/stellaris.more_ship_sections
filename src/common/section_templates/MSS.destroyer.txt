@@ -198,7 +198,7 @@ ship_section_template = {
 	entity = "destroyer_bow_L1_entity"
 	icon = "GFX_ship_part_core_bow"
 	
-	prerequisites = { tech_destroyer_hull_1, tech_strike_craft_1 }
+	prerequisites = { tech_destroyer_hull_1 }
 
 	ai_weight = {
 		modifier = {
