@@ -147,50 +147,6 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "MSS_CORVETTE_MI2"
-	ship_size = corvette
-	fits_on_slot = mid
-	should_draw_components = yes
-	entity = "corvette_M1S1_entity"
-	icon = "GFX_ship_part_core_mid"
-	
-	prerequisites = { tech_missiles_1 }
-	
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-			is_preferred_weapons = weapon_type_explosive
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { is_preferred_weapons = weapon_type_explosive }
-		}		
-	}
-	
-	component_slot = {
-		name = "TORPEDO_01"
-		template = "medium_missile_turret"
-		locatorname = "medium_gun_01"
-	}
-	
-	component_slot = {
-		name = "TORPEDO_02"
-		template = "medium_missile_turret"
-		locatorname = "small_gun_01"
-	}
-	
-	small_utility_slots = 2
-	aux_utility_slots = 2
-	
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = @section_cost
-		}
-	}
-}
-
-ship_section_template = {
 	key = "MSS_CORVETTE_S1PD2"
 	ship_size = corvette
 	fits_on_slot = mid
@@ -218,13 +174,11 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "small_gun_01"
 	}
-	
 	component_slot = {
 		name = "SMALL_GUN_02"
 		template = "small_turret"
 		locatorname = "small_gun_02"
 	}
-	
 	component_slot = {
 		name = "SMALL_GUN_03"
 		template = "point_defence_turret"

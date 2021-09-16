@@ -72,7 +72,6 @@ ship_section_template = {
 		template = "small_turret"
 		locatorname = "small_gun_01"
 	}
-	
 	component_slot = {
 		name = "SMALL_GUN_02"
 		template = "small_turret"
@@ -118,7 +117,6 @@ ship_section_template = {
 		template = "medium_turret"
 		locatorname = "medium_gun_01"
 	}
-	
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		template = "medium_turret"
@@ -167,6 +165,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "small_gun_02"
 	}
+
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
@@ -213,6 +212,7 @@ ship_section_template = {
 		template = "large_turret"
 		locatorname = "large_gun_01"
 	}
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		template = "medium_turret"
@@ -258,13 +258,11 @@ ship_section_template = {
 		template = "medium_turret"
 		locatorname = "medium_gun_01"
 	}
-	
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		template = "medium_turret"
 		locatorname = "medium_gun_02"
 	}
-	
 	component_slot = {
 		name = "MEDIUM_GUN_03"
 		template = "medium_turret"
@@ -307,7 +305,6 @@ ship_section_template = {
 		template = "medium_missile_turret"
 		locatorname = "medium_gun_01"
 	}
-	
 	component_slot = {
 		name = "TORPEDO_02"
 		template = "medium_missile_turret"
@@ -319,7 +316,6 @@ ship_section_template = {
 		template = "small_turret"
 		locatorname = "small_gun_01"
 	}
-	
 	component_slot = {
 		name = "SMALL_GUN_02"
 		template = "small_turret"
@@ -406,7 +402,6 @@ ship_section_template = {
 		template = "small_turret"
 		locatorname = "small_gun_01"
 	}
-	
 	component_slot = {
 		name = "SMALL_GUN_02"
 		template = "small_turret"
@@ -468,6 +463,8 @@ ship_section_template = {
 	entity = "cruiser_stern_M1_entity"
 	icon = "GFX_ship_part_core_stern"
 	
+	prerequisites = { tech_cruiser_hull_1, tech_strike_craft_1 }
+
 	ai_weight = {
 		modifier = {
 			factor = 10.0
@@ -504,6 +501,8 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "cruiser_stern_M1_entity"
 	icon = "GFX_ship_part_core_stern"
+
+	prerequisites = { tech_cruiser_hull_1 }
 
 	ai_weight = {
 		modifier = {
