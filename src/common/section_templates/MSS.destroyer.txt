@@ -358,8 +358,6 @@ ship_section_template = {
 	should_draw_components = yes
 	entity = "destroyer_stern_M1_entity"
 	icon = "GFX_ship_part_core_stern"
-	
-	prerequisites = { tech_destroyer_hull_1 }
 
 	ai_weight = {
 		modifier = {

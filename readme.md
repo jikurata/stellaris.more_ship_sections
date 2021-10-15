@@ -70,24 +70,32 @@ This mod attempts to rework the vanilla sections and implement new ones as well.
   - 1 Missile
   - 1 Point-Defence
 - Utility:
-  - 3 Small
-  - 2 Auxillary
+  - 5 Small
+  - 1 Auxillary
 
 **Phalanx**
 - Weapons:
-  - 1 Small Gun
+  - 1 Small
   - 2 Point-Defence
 - Utility:
-  - 3 Small
-  - 2 Auxillary
+  - 5 Small
+  - 1 Auxillary
+
+**Bunker**
+- Weapons:
+  - 2 Small
+- Utility: 
+  - 1 Medium Utility
+  - 4 Small Utility
+  - 1 Auxillary
 
 **Crusader**
 - Weapons:
-  - 1 Medium Gun
-  - 1 Small Gun
+  - 1 Medium
+  - 1 Small
 - Utility: 
-  - 3 Small Utility
-  - 2 Auxillary
+  - 5 Small Utility
+  - 1 Auxillary
 
 ### Destroyer
 ---
