@@ -52,7 +52,7 @@ ship_section_template = {
 
 	ai_weight = {
 		modifier = {
-			factor = 10.0
+			factor = 5.0
 			is_preferred_weapons = weapon_type_explosive
 		}
 		modifier = {
@@ -135,7 +135,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "CRUISER_BOW_M2"
+	key = "MSS_CRUISER_BOW_MI2"
 	ship_size = cruiser
 	fits_on_slot = bow
 	should_draw_components = yes
@@ -145,25 +145,22 @@ ship_section_template = {
 	ai_weight = {
 		modifier = {
 			factor = 10.0
-			OR = {
-				is_preferred_weapons = weapon_type_kinetic
-				is_preferred_weapons = weapon_type_energy
-			}
+			is_preferred_weapons = weapon_type_explosive
 		}
 		modifier = {
 			factor = 0.1
-			is_preferred_weapons = weapon_type_explosive
-		}	
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}		
 	}
 
 	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "medium_turret"
+		name = "TORPEDO_01"
+		template = "medium_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "medium_turret"
+		name = "TORPEDO_02"
+		template = "medium_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 	
@@ -483,7 +480,8 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	
-	medium_utility_slots = 4
+	large_utility_slots = 1
+	medium_utility_slots = 2
 	small_utility_slots = 2
 	aux_utility_slots = 1
 	
