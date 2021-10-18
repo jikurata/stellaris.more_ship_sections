@@ -24,9 +24,9 @@ Utility:
 Each ship type is given a maximum ship point value:
 ```
 Corvette:     10
-Destroyer:    23
+Destroyer:    26
   - Bow:     +14
-  - Stern:   +9
+  - Stern:   +11
 Cruiser:      38
   - Bow:     +14
   - Mid:     +16
@@ -115,14 +115,14 @@ Stern Sections:
     - 1 Missile
   - Utility:
     - 1 Medium
-    - 3 Small
+    - 5 Small
     - 1 Auxillary
 
 - **Artillery (Non-rotational)**
   - Weapons:
     - 1 Large
   - Utility:
-    - 3 Small
+    - 5 Small
     - 1 Auxillary
 
 ### Cruiser

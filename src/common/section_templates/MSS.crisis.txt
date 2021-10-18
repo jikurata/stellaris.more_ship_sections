@@ -20,7 +20,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	
-	small_utility_slots = 4
+	small_utility_slots = 5
 	aux_utility_slots = 2
 }
 
@@ -49,7 +49,7 @@ ship_section_template = {
 		locatorname = "small_gun_03"
 	}
 	
-	small_utility_slots = 4
+	small_utility_slots = 5
 	aux_utility_slots = 2
 }
 
@@ -85,8 +85,8 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 	
-	medium_utility_slots = 3
-	small_utility_slots = 3
+	medium_utility_slots = 4
+	small_utility_slots = 2
 	aux_utility_slots = 2
 }
 
@@ -115,8 +115,8 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}	
 	
-	medium_utility_slots = 3
-	small_utility_slots = 3
+	medium_utility_slots = 4
+	small_utility_slots = 2
 	aux_utility_slots = 2
 }
 
@@ -155,8 +155,8 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}	
 	
-	large_utility_slots = 1
-	medium_utility_slots = 4
+	large_utility_slots = 2
+	medium_utility_slots = 2
 	aux_utility_slots = 3
 }
 
