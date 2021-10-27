@@ -522,6 +522,11 @@ ship_section_template = {
 		template = "medium_turret"
 		locatorname = "medium_gun_01"
 	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "small_turret"
+		locatorname = "medium_gun_01"
+	}
 	
 	medium_utility_slots = 2
 	aux_utility_slots = 1
@@ -563,6 +568,11 @@ ship_section_template = {
 	}
 	component_slot = {
 		name = "SMALL_GUN_02"
+		template = "invisible_small_turret"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
 		template = "small_turret"
 		locatorname = "small_gun_02"
 	}
@@ -579,7 +589,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "MSS_CRUISER_STERN_MI1"
+	key = "MSS_CRUISER_STERN_MI1PD1"
 	ship_size = cruiser
 	fits_on_slot = stern
 	should_draw_components = yes
@@ -600,6 +610,11 @@ ship_section_template = {
 	component_slot = {
 		name = "TORPEDO_01"
 		template = "medium_missile_turret"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "invisible_point_defence_turret"
 		locatorname = "medium_gun_01"
 	}
 	
@@ -640,7 +655,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	
-	small_utility_slots = 2
+	small_utility_slots = 3
 	aux_utility_slots = 1
 		
 	resources = {
@@ -680,7 +695,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	
-	small_utility_slots = 2
+	small_utility_slots = 3
 	aux_utility_slots = 1
 		
 	resources = {

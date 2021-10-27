@@ -904,7 +904,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "MSS_BATTLESHIP_STERN_MI2"
+	key = "MSS_BATTLESHIP_STERN_MI2PD1"
 	ship_size = battleship
 	fits_on_slot = stern
 	should_draw_components = yes
@@ -920,6 +920,12 @@ ship_section_template = {
 		name = "TORPEDO_02"
 		template = "medium_missile_turret"
 		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "invisible_point_defence_turret"
+		locatorname = "medium_gun_01"
 	}
 	
 	medium_utility_slots = 2
