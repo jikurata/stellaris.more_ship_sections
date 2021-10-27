@@ -26,11 +26,11 @@ Each ship type is given a maximum ship point value:
 Corvette:     10
 Destroyer:    26
   - Bow:     +14
-  - Stern:   +11
+  - Stern:   +14
 Cruiser:      38
   - Bow:     +14
   - Mid:     +16
-  - Stern:   +8
+  - Stern:   +9
 Battleship:   60
   - Bow:     +22
   - Mid:     +26
